@@ -28,6 +28,3 @@ def f(x, y):
     """
     return -2 * y
 
-
-ovi
-
