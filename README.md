@@ -97,6 +97,9 @@ for i in range(N):
     k4 = h * f(x_n + h, y_n_r + k3)
     y_next_r = y_n_r + (k1 + 2*k2 + 2*k3 + k4)/6
     y_rk4.append(y_next_r)
-   
+
+   # Exact solution
+    x_next = x_n + h
+
 
 
