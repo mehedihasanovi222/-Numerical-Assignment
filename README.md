@@ -109,5 +109,8 @@ for i in range(N):
     rel_error_euler.append(abs(y_next_e - y_ex)/y_ex)
     rel_error_rk4.append(abs(y_next_r - y_ex)/y_ex)
 
+    # Update x
+    x_vals.append(x_next)
+
 
 
