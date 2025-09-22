@@ -78,6 +78,8 @@ for i in range(N+1):
     print(f"{x_val[i]:<6.2f}{y_exact[i]:<12.5f}{y_euler[i]:<12.5f}"
           f"{abs_error_euler[i]:<15.5f}{rel_error_euler[i]:<15.5f}"
           f"{y_rk4[i]:<12.5f}{abs_error_rk4[i]:<15.5f}{rel_error_rk4[i]:<15.5f}"
+          f"{accuracy_note_list[i-1] if i > 0 else 'Euler: N/A; RK4: N/A'} | {stability_note_list[i-1] if i > 0 else 'Euler: N/A; RK4: N/A'}")
+
 
 
 
