@@ -146,6 +146,13 @@ x     Exact y     Euler y     Euler Abs Err  Euler Rel Err  RK4 y       RK4 Abs 
 
 * *Euler Method* → less accurate (error grows linearly with step size).
 * *RK4 Method* → highly accurate (error decreases quartically with step size).
+### Stability
+
+* *Euler Method* is stable if |1 + hλ| < 1.
+  For λ = -2, with h = 0.1 → Stable.
+* *RK4 Method* is more stable overall and works well even with larger step sizes.
+
+---
 
 
 
