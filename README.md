@@ -57,4 +57,13 @@ $$
 
 ---
 
+## Python Code
+
+```python
+import math
+
+# Step size and number of steps
+h = 0.1
+N = 20   # solve up to x = 2.0
+
 
