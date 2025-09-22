@@ -76,4 +76,8 @@ abs_error_rk4 = [0]
 rel_error_euler = [0]
 rel_error_rk4 = [0]
 
+# ODE function: dy/dx = -2y
+def f(x, y):
+    return -2 * y
+
 
