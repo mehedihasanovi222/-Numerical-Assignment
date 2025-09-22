@@ -168,7 +168,14 @@ You can also include graphs in your report:
 
 ---
 
+## Conclusion
 
+* **Euler** is simple but not very accurate.
+* **RK4** gives excellent accuracy and stability for the same step size.
+* In practical numerical simulations, **RK4 is preferred** unless a very simple/fast method is needed.
+
+---
+#####Thank You 
 
 
 
