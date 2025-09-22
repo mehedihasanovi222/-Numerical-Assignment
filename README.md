@@ -100,6 +100,8 @@ for i in range(N):
 
    # Exact solution
     x_next = x_n + h
+    y_ex = math.exp(-2 * x_next)
+    y_exact.append(y_ex)
 
 
 
