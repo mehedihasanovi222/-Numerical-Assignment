@@ -81,6 +81,8 @@ for i in range(N+1):
           f"{accuracy_note_list[i-1] if i > 0 else 'Euler: N/A; RK4: N/A'} | {stability_note_list[i-1] if i > 0 else 'Euler: N/A; RK4: N/A'}")
 
 print("\nFinal Accuracy: Euler → O(h), less accurate; RK4 → O(h^4), highly accurate")
+print("Final Stability: Euler stable if |1 + hλ| < 1; here λ = -2, h = 0.1 → Stable; RK4 more stable overall")
+
 
 
 
