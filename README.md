@@ -36,3 +36,25 @@ $$
 * Stability: requires *small step size* for reliable results.
 Write to Numerical Methods Assignment
 
+### 2. Runge-Kutta 4th Order (RK4)
+
+RK4 is a *fourth-order method*.
+The formula is:
+
+$$
+\begin{aligned}
+k_1 &= h f(x_n, y_n) \\
+k_2 &= h f\Big(x_n + \tfrac{h}{2}, y_n + \tfrac{k_1}{2}\Big) \\
+k_3 &= h f\Big(x_n + \tfrac{h}{2}, y_n + \tfrac{k_2}{2}\Big) \\
+k_4 &= h f(x_n + h, y_n + k_3) \\
+y_{n+1} &= y_n + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)
+\end{aligned}
+$$
+
+* More complex, but very accurate.
+* Accuracy: *O(h⁴)* (much better).
+* More stable for larger step sizes.
+
+---
+
+
