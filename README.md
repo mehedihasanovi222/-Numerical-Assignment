@@ -140,6 +140,15 @@ x     Exact y     Euler y     Euler Abs Err  Euler Rel Err  RK4 y       RK4 Abs 
 ```
 ---
 
+## Analysis
+
+### Accuracy
+
+* *Euler Method* → less accurate (error grows linearly with step size).
+* *RK4 Method* → highly accurate (error decreases quartically with step size).
+
+
+
 
 
 
