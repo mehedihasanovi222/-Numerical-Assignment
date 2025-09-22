@@ -159,6 +159,10 @@ x     Exact y     Euler y     Euler Abs Err  Euler Rel Err  RK4 y       RK4 Abs 
 
 You can also include graphs in your report:
 
+#Solution Comparison
+![Solution Comparison](solutions_graph.png)
+
+
 
 
 
