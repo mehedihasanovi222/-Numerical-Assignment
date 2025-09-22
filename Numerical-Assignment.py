@@ -59,19 +59,6 @@ for i in range(N):
     rel_error_rk4.append(abs(y_next_r - y_ex) / y_ex) 
 
 
-    # Accuracy and stability notes for this step
-    accuracy_note_list.append('Euler: less accurate; RK4: highly accurate')
-    stability_note_list.append('Euler stable if h < 1; RK4 more stable')
-
- # Update x
-    x_val.append(x_next)
-
-# Print Table Header
-print(f"{'x':<6}{'Exact y':<12}{'Euler y':<12}{'Euler Abs Err':<15}{'Euler Rel Err':<15}"
-      f"{'RK4 y':<12}{'RK4 Abs Err':<15}{'RK4 Rel Err':<15}{'Notes':<40 }")
-
-
-
-
+    
     
 
