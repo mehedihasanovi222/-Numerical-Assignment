@@ -123,6 +123,12 @@ for i in range(N+1):
           f"{abs_error_euler[i]:<15.5f}{rel_error_euler[i]:<15.5f}"
           f"{y_rk4[i]:<12.5f}{abs_error_rk4[i]:<15.5f}{rel_error_rk4[i]:<15.5f}")
 
+print("\nFinal Accuracy: Euler → O(h), less accurate; RK4 → O(h^4), highly accurate")
+print("Final Stability: Euler stable if |1 + hλ| < 1; here λ=-2, h=0.1 → Stable; RK4 more stable overall")
+
+---
+
+
 
 
 
