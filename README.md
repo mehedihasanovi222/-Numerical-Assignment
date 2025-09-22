@@ -162,6 +162,12 @@ You can also include graphs in your report:
 #Solution Comparison
 ![Solution Comparison](solutions_graph.png)
 
+#Error Comparison
+![Error Comparison](errors_graph.png)
+
+
+---
+
 
 
 
