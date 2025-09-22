@@ -73,6 +73,12 @@ for i in range(N):
 print(f"{'x':<6}{'Exact y':<12}{'Euler y':<12}{'Euler Abs Err':<15}{'Euler Rel Err':<15}"
       f"{'RK4 y':<12}{'RK4 Abs Err':<15}{'RK4 Rel Err':<15}{'Notes':<40 }")
 
+# Print Table Row
+for i in range(N+1):
+    print(f"{x_val[i]:<6.2f}{y_exact[i]:<12.5f}{y_euler[i]:<12.5f}"
+          f"{abs_error_euler[i]:<15.5f}{rel_error_euler[i]:<15.5f}"
+
+
 
 
 
