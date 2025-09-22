@@ -66,4 +66,14 @@ import math
 h = 0.1
 N = 20   # solve up to x = 2.0
 
+# Initialize lists
+x_vals = [0]
+y_euler = [1]
+y_rk4 = [1]
+y_exact = [1]
+abs_error_euler = [0]
+abs_error_rk4 = [0]
+rel_error_euler = [0]
+rel_error_rk4 = [0]
+
 
