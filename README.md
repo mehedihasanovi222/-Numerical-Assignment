@@ -19,3 +19,20 @@ $$
 * Analyze **accuracy** and **stability** of both methods.
 
 ---
+
+## Theory
+
+### 1. Euler’s Method
+
+Euler’s method is a *first-order numerical method*.
+The update formula is:
+
+$$
+y_{n+1} = y_n + h f(x_n, y_n)
+$$
+
+* Easy to implement.
+* Accuracy: *O(h)* (linear).
+* Stability: requires *small step size* for reliable results.
+Write to Numerical Methods Assignment
+
