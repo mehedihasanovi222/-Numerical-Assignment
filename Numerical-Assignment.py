@@ -55,6 +55,10 @@ for i in range(N):
     abs_error_euler.append(abs(y_next_e - y_ex))
     abs_error_rk4.append(abs(y_next_r - y_ex))
 
+   rel_error_euler.append(abs(y_next_e - y_ex) / y_ex)
+    rel_error_rk4.append(abs(y_next_r - y_ex) / y_ex) 
+
+
 
 
     
