@@ -103,5 +103,11 @@ for i in range(N):
     y_ex = math.exp(-2 * x_next)
     y_exact.append(y_ex)
 
+# Errors
+    abs_error_euler.append(abs(y_next_e - y_ex))
+    abs_error_rk4.append(abs(y_next_r - y_ex))
+    rel_error_euler.append(abs(y_next_e - y_ex)/y_ex)
+    rel_error_rk4.append(abs(y_next_r - y_ex)/y_ex)
+
 
 
