@@ -42,5 +42,9 @@ for i in range(N):
     k1 = h * f(xn, yn_r)
      k2 = h * f(xn + h/2, yn_r + k1/2)
     k3 = h * f(xn + h/2, yn_r + k2/2)
+  k4 = h * f(xn + h, yn_r + k3)
+    y_next_r = yn_r + (k1 + 2*k2 + 2*k3 + k4)/6
+    y_rk4.append(y_next_r)
+
     
 
