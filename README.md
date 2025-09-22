@@ -80,4 +80,10 @@ rel_error_rk4 = [0]
 def f(x, y):
     return -2 * y
 
+# Compute step by step
+for i in range(N):
+    x_n = x_vals[-1]
+    y_n_e = y_euler[-1]
+    y_n_r = y_rk4[-1]
+
 
