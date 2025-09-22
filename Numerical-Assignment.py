@@ -37,3 +37,8 @@ for i in range(N):
 # Euler method
     y_next_e = yn_e + h * f(xn, yn_e)
     y_euler.append(y_next_e)
+
+ # RK4 method
+    k1 = h * f(xn, yn_r)
+    
+
