@@ -90,4 +90,10 @@ for i in range(N):
     y_next_e = y_n_e + h * f(x_n, y_n_e)
     y_euler.append(y_next_e)
 
+  # RK4 method
+    k1 = h * f(x_n, y_n_r)
+    k2 = h * f(x_n + h/2, y_n_r + k1/2)
+    k3 = h * f(x_n + h/2, y_n_r + k2/2)
+   
+
 
