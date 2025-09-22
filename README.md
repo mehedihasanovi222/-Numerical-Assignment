@@ -109,6 +109,11 @@ for i in range(N):
     rel_error_euler.append(abs(y_next_e - y_ex)/y_ex)
     rel_error_rk4.append(abs(y_next_r - y_ex)/y_ex)
 
+# Print Table Header
+print(f"{'x':<6}{'Exact y':<12}{'Euler y':<12}{'Euler Abs Err':<15}{'Euler Rel Err':<15}"
+      f"{'RK4 y':<12}{'RK4 Abs Err':<15}{'RK4 Rel Err':<15}")
+
+
     # Update x
     x_vals.append(x_next)
 
