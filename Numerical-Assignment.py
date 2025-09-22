@@ -46,5 +46,11 @@ for i in range(N):
     y_next_r = yn_r + (k1 + 2*k2 + 2*k3 + k4)/6
     y_rk4.append(y_next_r)
 
+# Exact solution
+    x_next = xn + h
+    y_ex = math.exp(-2 * x_next)
+    y_exact.append(y_ex)
+
+
     
 
