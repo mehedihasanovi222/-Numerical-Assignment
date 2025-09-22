@@ -28,3 +28,9 @@ def f(x, y):
     """
     return -2 * y
 
+# Compute step by step
+for i in range(N):
+    xn = x_val[-1]
+    yn_e = y_euler[-1]
+    yn_r = y_rk4[-1]
+
