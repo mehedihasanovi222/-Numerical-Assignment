@@ -59,6 +59,11 @@ for i in range(N):
     rel_error_rk4.append(abs(y_next_r - y_ex) / y_ex) 
 
 
+    # Accuracy and stability notes for this step
+    accuracy_note_list.append('Euler: less accurate; RK4: highly accurate')
+    stability_note_list.append('Euler stable if h < 1; RK4 more stable')
+
+
 
 
     
