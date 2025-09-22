@@ -34,3 +34,6 @@ for i in range(N):
     yn_e = y_euler[-1]
     yn_r = y_rk4[-1]
 
+# Euler method
+    y_next_e = yn_e + h * f(xn, yn_e)
+    y_euler.append(y_next_e)
