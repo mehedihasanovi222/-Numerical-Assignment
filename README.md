@@ -155,6 +155,11 @@ x     Exact y     Euler y     Euler Abs Err  Euler Rel Err  RK4 y       RK4 Abs 
 ---
 
 
+## Graphical Results
+
+You can also include graphs in your report:
+
+
 
 
 
