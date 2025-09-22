@@ -63,6 +63,9 @@ for i in range(N):
     accuracy_note_list.append('Euler: less accurate; RK4: highly accurate')
     stability_note_list.append('Euler stable if h < 1; RK4 more stable')
 
+ # Update x
+    x_val.append(x_next)
+
 
 
 
