@@ -40,5 +40,7 @@ for i in range(N):
 
  # RK4 method
     k1 = h * f(xn, yn_r)
+     k2 = h * f(xn + h/2, yn_r + k1/2)
+    k3 = h * f(xn + h/2, yn_r + k2/2)
     
 
