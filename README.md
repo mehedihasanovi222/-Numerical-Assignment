@@ -86,4 +86,8 @@ for i in range(N):
     y_n_e = y_euler[-1]
     y_n_r = y_rk4[-1]
 
+# Euler method
+    y_next_e = y_n_e + h * f(x_n, y_n_e)
+    y_euler.append(y_next_e)
+
 
