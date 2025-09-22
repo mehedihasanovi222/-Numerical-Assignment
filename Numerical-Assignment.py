@@ -66,6 +66,10 @@ for i in range(N):
  # Update x
     x_val.append(x_next)
 
+# Print Table Header
+print(f"{'x':<6}{'Exact y':<12}{'Euler y':<12}{'Euler Abs Err':<15}{'Euler Rel Err':<15}"
+      f"{'RK4 y':<12}{'RK4 Abs Err':<15}{'RK4 Rel Err':<15}{'Notes':<40}")
+
 
 
 
