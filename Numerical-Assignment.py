@@ -80,6 +80,8 @@ for i in range(N+1):
           f"{y_rk4[i]:<12.5f}{abs_error_rk4[i]:<15.5f}{rel_error_rk4[i]:<15.5f}"
           f"{accuracy_note_list[i-1] if i > 0 else 'Euler: N/A; RK4: N/A'} | {stability_note_list[i-1] if i > 0 else 'Euler: N/A; RK4: N/A'}")
 
+print("\nFinal Accuracy: Euler → O(h), less accurate; RK4 → O(h^4), highly accurate")
+
 
 
 
